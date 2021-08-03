@@ -14,3 +14,11 @@
     text-shadow: 0 1px 0 #3359a5;
 
 }
+    .facebook-style-dark:hover {
+        background: #2b54a7;
+    }
+
+    .facebook-style-dark:active {
+        background: #1d4698;
+        background-color: #1d4697;
+    }
