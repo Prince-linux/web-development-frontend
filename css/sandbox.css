@@ -22,3 +22,16 @@
         background: #1d4698;
         background-color: #1d4697;
     }
+
+.facebook-style-light {
+    background: #f6f7f9;
+    border: solid 1px #ced0d4;
+    color: #4b4f56;
+}
+    .facebook-style-light:hover {
+        background: #e9ebee;
+    }
+    .facebook-style-light:active {
+        background: #d8dade;
+        border-color: #d8dade;
+    }
