@@ -35,3 +35,23 @@
         background: #d8dade;
         border-color: #d8dade;
     }
+
+.btn-3d-1 {
+    position: relative;
+    background: orangered;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    font-size: 1.4rem;
+    box-shadow: -6px 6px 0 hsl(16, 100%, 30%);
+    outline: none;
+}   
+    .btn-3d-1:hover {
+        background: hsl(16, 100%, 45%);
+    }
+    .btn-3d-1:active {
+        background: hsl(16, 100%, 40%);
+        top: 3px;
+        left: -3px;
+        box-shadow: -3px 3px 0 hsl(16, 100%, 30%);
+    }
