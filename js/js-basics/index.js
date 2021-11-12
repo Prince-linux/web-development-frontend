@@ -19,3 +19,8 @@ let male = true; // Boolean
 let career = undefined; // undefined
 let wife = null; // null
 
+console.log(name);
+console.log(age);
+console.log(male);
+console.log(career);
+console.log(wife);
