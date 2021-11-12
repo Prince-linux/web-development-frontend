@@ -24,3 +24,15 @@ console.log(age);
 console.log(male);
 console.log(career);
 console.log(wife);
+
+
+//objects
+let person = {
+    name: 'Andre',
+    age: 3,
+    gender: 'male',
+};
+
+console.log(person.name);
+console.log(person.age);
+console.log(person.gender);
