@@ -33,6 +33,7 @@ let person = {
     gender: 'male',
 };
 
+console.log(person);
 console.log(person.name);
 console.log(person.age);
 console.log(person.gender);
