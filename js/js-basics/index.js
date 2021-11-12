@@ -36,3 +36,10 @@ let person = {
 console.log(person.name);
 console.log(person.age);
 console.log(person.gender);
+
+//arrays
+
+let selectedColors = ['Red', 'Green', 'Blue',]
+selectedColors[3] = 256;
+console.log(selectedColors);
+console.log(selectedColors.length);
