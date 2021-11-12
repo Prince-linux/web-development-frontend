@@ -44,3 +44,10 @@ let selectedColors = ['Red', 'Green', 'Blue',]
 selectedColors[3] = 256;
 console.log(selectedColors);
 console.log(selectedColors.length);
+
+//functions
+
+function greet() {
+    console.log("Hello and Welcome!");
+}
+greet();
