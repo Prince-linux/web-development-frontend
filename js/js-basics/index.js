@@ -51,3 +51,11 @@ function greet() {
     console.log("Hello and Welcome!");
 }
 greet();
+
+// function with parameters and a fucntion call with arguments
+
+function greeting(firstName, lastName) {
+    console.log("Hello " + firstName + " " + lastName);
+}
+
+greeting("Andre", "Boamah");
