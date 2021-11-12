@@ -53,9 +53,19 @@ function greet() {
 greet();
 
 // function with parameters and a fucntion call with arguments
+// Perfoming task
 
 function greeting(firstName, lastName) {
     console.log("Hello " + firstName + " " + lastName);
 }
 
 greeting("Andre", "Boamah");
+
+//Calculating a value
+
+function square(number) {
+    return number * number;
+}
+
+console.log(square(20));
+console.log("The area of a square is " + square(20));
