@@ -1,13 +1,13 @@
-/* An example of element selectors  */
+/* An example of class selectors  */
 
-h1 {
+.hello {
     color: olive;
 }
 
-h2 {
-    color: green;
+.welcome {
+    color: green
 }
 
-p {
-    color: gray;
+.lorem {
+    color: grey
 }
