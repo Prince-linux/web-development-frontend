@@ -1,0 +1,13 @@
+/* An example of element selectors  */
+
+h1 {
+    color: olive;
+}
+
+h2 {
+    color: green;
+}
+
+p {
+    color: gray;
+}
