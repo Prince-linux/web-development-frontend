@@ -1,13 +1,17 @@
-/* An example of class selectors  */
+/* Divs and Spans are for groupings */
 
-.hello {
-    color: olive;
+.red {
+    color: red;
 }
 
-.welcome {
-    color: green
+.red span {
+    text-transform: uppercase;
 }
 
-.lorem {
-    color: grey
+.green {
+    color: green;
+}
+
+.green span {
+    text-transform: capitalize;
 }
