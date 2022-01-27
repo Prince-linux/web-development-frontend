@@ -1,4 +1,9 @@
-/* Divs and Spans are for groupings */
+/* Inheritance */
+
+body {
+    font-family: monospace;
+    line-height: 1.5em;
+}
 
 .red {
     color: red;
