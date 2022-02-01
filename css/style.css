@@ -3,7 +3,11 @@
 
 /* RGB 0-1 opacity/transparency */
 
-#first {
+
+/* HEX values #RRGGBB */
+
+
+/* #first {
     color: rgb(90, 40, 75);
     background-color: rgba(20, 40, 219, 0.21)
 }
@@ -21,6 +25,26 @@
 #fourth {
     color: rgb(78, 65, 80);
     background: rgba(90, 78, 89, 0.42);
+} */
+
+#first {
+    color: #f9a4f2;
+    background: #000;
+}
+
+#second {
+    color: #f100ff;
+    background: #a2d3c2;
+}
+
+#third {
+    color: #b2e4d7;
+    background: #d3a4c5;
+}
+
+#fourth {
+    color: #e5b2a6;
+    background: #00d3c5;
 }
 
 body {
