@@ -1,22 +1,23 @@
-/* Inheritance */
+/* Colors and it's properties */
+
+
+/* RGB 0-1 opacity/transparency */
+
+#first {
+    color: rgb(90, 40, 75);
+    background-color: rgb(20, 40, 219)
+}
+
+#second {
+    color: rgb(200, 201, 120);
+    background-color: rgb(0, 0, 0);
+}
+
+#third {
+    color: rgb(255, 255, 255);
+    background: rgb(32, 120, 48)
+}
 
 body {
-    font-family: monospace;
-    line-height: 1.5em;
-}
-
-.red {
-    color: red;
-}
-
-.red span {
-    text-transform: uppercase;
-}
-
-.green {
-    color: green;
-}
-
-.green span {
-    text-transform: capitalize;
+    background: rgb(84, 78, 23);
 }
