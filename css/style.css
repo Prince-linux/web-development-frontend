@@ -1,15 +1,18 @@
-/* pixels and percentages */
+/* relative and absolute
+em - Relative on parent
+1em - 16px default browser style;
+1em - base value
+*/
 
-.outer {
-    width: 200px;
-    height: 200PX;
-    background: blue;
+
+/* rems are the same as em */
+
+.relative {
+    font-size: 2em;
 }
 
-.inner {
-    width: 70%;
-    height: 70%;
-    background: red;
+.absolute {
+    font-size: 32px;
 }
 
 body {
