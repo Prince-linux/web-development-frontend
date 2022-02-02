@@ -1,20 +1,25 @@
-/* relative and absolute
-em - Relative on parent
-1em - 16px default browser style;
-1em - base value
-*/
-
-
-/* rems are the same as em */
-
-.relative {
-    font-size: 2em;
-}
-
-.absolute {
-    font-size: 32px;
-}
+/*
+calc()
+perform math operations - + * /
+mix and match values 
+ */
 
 body {
     background: rgba(84, 78, 23, 0.53);
+}
+
+* {
+    margin: 0;
+}
+
+.navbar {
+    background: grey;
+    height: 100px;
+    color: #000;
+    font-size: 3rem;
+}
+
+.banner {
+    background: hotpink;
+    min-height: calc(100vh - 100px);
 }
