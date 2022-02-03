@@ -1,25 +1,22 @@
-/*
-calc()
-perform math operations - + * /
-mix and match values 
- */
+/* font-stack, generic fonts
+serif, sans-serif, monospace, cursive, fantasy
+*/
+
+
+/* font-family, font-weight, font-style */
 
 body {
-    background: rgba(84, 78, 23, 0.53);
-}
-
-* {
-    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-style: oblique;
 }
 
 .navbar {
-    background: grey;
-    height: 100px;
-    color: #000;
-    font-size: 3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-.banner {
-    background: hotpink;
-    min-height: calc(100vh - 100px);
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
