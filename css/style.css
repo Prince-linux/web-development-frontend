@@ -8,6 +8,9 @@ serif, sans-serif, monospace, cursive, fantasy
 
 /* text-align, text-indent */
 
+
+/* text-transform, text-decoration, line-height, word-spacing, letter-spacing */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
@@ -22,7 +25,30 @@ body {
     text-align: left;
 }
 
-p {
+.one {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-indent: 20rem;
+    line-height: 1.5em;
+    letter-spacing: 0.5px;
+    word-spacing: 1.10em;
+    text-transform: lowercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.two {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    line-height: 1.0em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.three {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration: overline;
 }
