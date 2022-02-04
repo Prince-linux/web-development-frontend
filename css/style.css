@@ -11,6 +11,9 @@ serif, sans-serif, monospace, cursive, fantasy
 
 /* text-transform, text-decoration, line-height, word-spacing, letter-spacing */
 
+
+/* Padding, margin, border, border-radius, negative margin, */
+
 body {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
@@ -23,6 +26,9 @@ body {
     font-weight: 300;
     font-style: normal;
     text-align: left;
+    padding: 12px 10px;
+    background: rosybrown;
+    margin: 10px 5px;
 }
 
 .one {
@@ -32,6 +38,9 @@ body {
     letter-spacing: 0.5px;
     word-spacing: 1.10em;
     text-transform: lowercase;
+    background: royalblue;
+    margin: 5px 7px;
+    padding: 10px 5px;
 }
 
 a {
@@ -44,6 +53,7 @@ a {
     line-height: 1.0em;
     text-transform: capitalize;
     text-decoration: underline;
+    border: 5px solid black;
 }
 
 .three {
@@ -51,4 +61,8 @@ a {
     text-align: right;
     text-transform: uppercase;
     text-decoration: overline;
+    border: 12px solid brown;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: -20px;
 }
