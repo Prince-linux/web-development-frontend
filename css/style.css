@@ -43,10 +43,6 @@ body {
     padding: 10px 5px;
 }
 
-a {
-    text-decoration: none;
-}
-
 .two {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: left;
@@ -64,5 +60,30 @@ a {
     border: 12px solid brown;
     border-radius: 20px;
     padding: 10px 20px;
-    margin: -20px;
+    margin: 20px;
+}
+
+.buttons {
+    margin: 3rem;
+}
+
+.pay {
+    background: chartreuse;
+    border: 0.2rem solid #222;
+    padding: 1.2rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.shop {
+    background: brown;
+    padding: 1.2rem 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin: 0 20px;
+    outline: 0.2rem solid #222;
+    outline-offset: 10px;
 }
