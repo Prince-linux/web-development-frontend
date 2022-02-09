@@ -1,0 +1,26 @@
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+}
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    border: 10px solid green;
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+}
+
+.image1 {
+    float: left;
+}
+
+.image2 {
+    float: right;
+}
