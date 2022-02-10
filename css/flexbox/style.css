@@ -4,7 +4,8 @@
     margin: 0;
     list-style: none;
     background: orange;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .flex-item {
