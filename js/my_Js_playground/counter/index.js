@@ -5,16 +5,9 @@
 // increment the count variable when the button is clicked
 // change the count-el in HTML to reflect the new count.
 
-// function increment() {
-//     console.log("The button was clicked")
-// }
+count = 0
 
-function countdown() {
-    console.log(1)
-    console.log(2)
-    console.log(3)
-    console.log(4)
-    console.log(5)
+function increment() {
+    count = count + 1
+    console.log(count)
 }
-
-countdown()
