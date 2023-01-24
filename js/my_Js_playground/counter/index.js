@@ -15,3 +15,12 @@ function increment() {
     countEl.innerText = count
     console.log(count)
 }
+
+function save() {
+    console.log(count)
+}
+
+function reset() {
+    count = 0
+    countEl.innerText = count
+}
