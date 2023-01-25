@@ -5,22 +5,29 @@
 // increment the count variable when the button is clicked
 // change the count-el in HTML to reflect the new count.
 
-let countEl = document.getElementById('count-el');
+// let countEl = document.getElementById('count-el');
 
 
-let count = 0
+// let count = 0
 
-function increment() {
-    count = count + 1
-    countEl.innerText = count
-    console.log(count)
-}
+// function increment() {
+//     count = count + 1
+//     countEl.innerText = count
+//     console.log(count)
+// }
 
-function save() {
-    console.log(count)
-}
+// function save() {
+//     console.log(count)
+// }
 
-function reset() {
-    count = 0
-    countEl.innerText = count
-}
+// function reset() {
+//     count = 0
+//     countEl.innerText = count
+// }
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let name = "Prince"
+let greeting = "Welcome"
+
+welcomeEl.innerText = greeting + " " + name + "!"
