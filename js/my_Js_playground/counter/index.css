@@ -1,14 +1,29 @@
 body {
-    background-image: url("station.jpg");
+    background-image: url("library.jpeg");
     background-size: cover;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    color: black
+}
+
+p {
+    color: ;
+    font-weight: bold;
 }
 
 h2 {
@@ -18,6 +33,7 @@ h2 {
 }
 
 button {
+    border: 1px solid black;
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,9 +45,17 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #2C2891;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #1C7947;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
+#reset-btn {
+    background: darkred;
 }
