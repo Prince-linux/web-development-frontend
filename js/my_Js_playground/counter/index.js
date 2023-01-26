@@ -20,8 +20,8 @@ function save() {
     count = 0
 }
 
-function reset() {
-    count = 0
-    countEl.textContent = count
-    saveEl.textContent = "Entries reset!"
-}
+// function reset() {
+//     count = 0
+//     countEl.textContent = count
+//     saveEl.textContent = "Entries reset!"
+// }
